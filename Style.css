@@ -1,0 +1,70 @@
+
+
+body {
+  background-color: #FF0909;
+}
+
+h1 {
+  border-style: solid;
+  border-width: 8px;
+}
+
+h2 {
+  border-style: solid;
+  border-width: 8px;
+}
+
+h3{
+  border-style: solid;
+  border-width: 8px;
+}
+
+h4{
+  border-style: solid;
+  border-width: 8px;
+}
+
+
+.black{
+  background: black;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: red;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: black;
+}
+
+.active {
+background-color: Red;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+h1 h2 h3 h4{
+  font-size: 35px;
+  font-style: oblique;
+  font-family: "Roboto-Slab" inherit;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+p {
+  font-size: 18px;
+  font-style: oblique;
+  font-family: "Merriweather" inherit;
+}
